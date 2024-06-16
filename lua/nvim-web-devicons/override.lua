@@ -524,12 +524,17 @@ devicons.set_icon({
     ["config"] = {
         icon = get("gear"),
         color = palette.bright_black,
-        name = "Gear",
+        name = "Config",
     },
     ["dots"] = {
         icon = get("heart"),
         color = palette.bright_red,
         name = "Dots",
+    },
+    [".aliasrc"] = {
+        icon = get("gear"),
+        color = palette.bright_black,
+        name = "Aliasrc",
     },
 })
 
