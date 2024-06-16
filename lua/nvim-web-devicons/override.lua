@@ -526,14 +526,9 @@ devicons.set_icon({
         color = palette.bright_black,
         name = "Gear",
     },
-    ["secrets.yml"] = {
-        icon = get("key"),
-        color = palette.yellow,
-        name = "Secrets",
-    },
     ["dots"] = {
-        icon = get("heard"),
-        color = palette.red,
+        icon = get("heart"),
+        color = palette.bright_red,
         name = "Dots",
     },
 })
