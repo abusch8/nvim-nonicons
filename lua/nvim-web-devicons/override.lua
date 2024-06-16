@@ -536,6 +536,11 @@ devicons.set_icon({
         color = palette.bright_black,
         name = "Aliasrc",
     },
+    ["secrets.yml"] = {
+        icon = get("lock"),
+        coor = palette.bright_black,
+        name = "Secrets",
+    },
 })
 
 devicons.set_default_icon(get("file"), palette.bright_black)
