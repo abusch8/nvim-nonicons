@@ -66,6 +66,11 @@ devicons.set_icon({
     color = palette.bright_black,
     name = "Zshrc",
   },
+  [".bashrc"] = {
+    icon = get("terminal"),
+    color = palette.bright_black,
+    name = "Bashrc",
+  },
   ["Gemfile$"] = {
     icon = get("ruby"),
     color = palette.bright_red,
@@ -386,16 +391,6 @@ devicons.set_icon({
     color = palette.bright_black,
     name = "Zsh",
   },
-  ["bashrc"] = {
-    icon = get("terminal"),
-    color = palette.bright_black,
-    name = "Sh",
-  },
-  ["zshrc"] = {
-    icon = get("terminal"),
-    color = palette.bright_black,
-    name = "Sh",
-  },
   ["terminal"] = {
     icon = get("terminal"),
     color = palette.bright_black,
@@ -521,7 +516,7 @@ devicons.set_icon({
       color = palette.orange,
       name = "Xml",
   },
-  ["tmux"] = {
+  [".tmux.conf"] = {
       icon = get("layout"),
       color = palette.green,
       name = "Tmux"
