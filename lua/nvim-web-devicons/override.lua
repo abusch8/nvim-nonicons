@@ -538,7 +538,7 @@ devicons.set_icon({
     },
     ["secrets.yml"] = {
         icon = get("lock"),
-        coor = palette.bright_black,
+        color = palette.bright_black,
         name = "Secrets",
     },
 })
