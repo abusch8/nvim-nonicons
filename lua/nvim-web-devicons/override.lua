@@ -517,9 +517,9 @@ devicons.set_icon({
       name = "Xml",
   },
   [".tmux.conf"] = {
-      icon = get("layout"),
+      icon = get("tmux"),
       color = palette.green,
-      name = "Tmux"
+      name = "Tmux",
   },
 })
 
