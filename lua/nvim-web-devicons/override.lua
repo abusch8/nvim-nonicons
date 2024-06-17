@@ -281,6 +281,11 @@ devicons.set_icon({
         color = palette.bright_blue,
         name = "Py",
     },
+    ["ipynb"] = {
+        icon = get("python"),
+        color = palette.orange,
+        name = "Ipynb",
+    },
     ["pyc"] = {
         icon = get("python"),
         color = palette.bright_blue,
@@ -370,6 +375,16 @@ devicons.set_icon({
         icon = get("typescript"),
         color = palette.blue,
         name = "Ts",
+    },
+    ["d.ts"] = {
+        icon = get("typescript"),
+        color = palette.blue,
+        name = "Dts",
+    },
+    ["tsconfig"] = {
+        icon = get("json"),
+        color = palette.bright_black,
+        name = "Json",
     },
     ["tsx"] = {
         icon = get("react"),
@@ -571,8 +586,13 @@ devicons.set_icon({
         color = palette.bright_black,
         name = "Bin",
     },
-    ["a.out"] = {
+    ["exe"] = {
         icon = get("binary"),
+        color = palette.bright_black,
+        name = "Exe",
+    },
+    ["a.out"] = {
+        icon = get("file-binary"),
         color = palette.bright_black,
         name = "A",
     },
@@ -581,15 +601,35 @@ devicons.set_icon({
         color = palette.white,
         name = "Ttf",
     },
+    ["otf"] = {
+        icon = get("typography"),
+        color = palette.white,
+        name = "Otf",
+    },
     ["mp4"] = {
         icon = get("video"),
         color = palette.orange,
         name = "Mp4",
     },
+    ["mkv"] = {
+        icon = get("video"),
+        color = palette.orange,
+        name = "Mpk",
+    },
     ["webm"] = {
         icon = get("video"),
         color = palette.orange,
         name = "Webm",
+    },
+    ["DS_Store"] = {
+        icon = get("gear"),
+        color = palette.bright_black,
+        name = "DS_Store",
+    },
+    ["webmanifest"] = {
+        icon = get("json"),
+        color = palette.bright_black,
+        name = "Webmanifest",
     },
 })
 
