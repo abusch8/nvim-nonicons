@@ -452,7 +452,7 @@ devicons.set_icon({
         name = "Fav",
     },
     [".env"] = {
-        icon = get("sliders"),
+        icon = get("code-square"),
         color = palette.yellow,
         name = "Env",
     },
@@ -582,13 +582,13 @@ devicons.set_icon({
         name = "Kbx",
     },
     ["bin"] = {
-        icon = get("binary"),
+        icon = get("file-binary"),
         color = palette.bright_black,
         name = "Bin",
     },
     ["exe"] = {
-        icon = get("binary"),
-        color = palette.bright_black,
+        icon = get("file-binary"),
+        color = palette.bright_blue,
         name = "Exe",
     },
     ["a.out"] = {
@@ -605,6 +605,16 @@ devicons.set_icon({
         icon = get("typography"),
         color = palette.white,
         name = "Otf",
+    },
+    ["mp3"] = {
+        icon = get("play"),
+        color = palette.orange,
+        name = "Mp3",
+    },
+    ["flac"] = {
+        icon = get("play"),
+        color = palette.orange,
+        name = "Wav",
     },
     ["mp4"] = {
         icon = get("video"),
