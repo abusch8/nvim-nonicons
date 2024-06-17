@@ -271,6 +271,11 @@ devicons.set_icon({
         color = palette.magenta,
         name = "Png",
     },
+    ["gif"] = {
+        icon = get("image"),
+        color = palette.bright_blue,
+        name = "Gif",
+    },
     ["py"] = {
         icon = get("python"),
         color = palette.bright_blue,
@@ -566,10 +571,25 @@ devicons.set_icon({
         color = palette.bright_black,
         name = "Bin",
     },
+    ["a.out"] = {
+        icon = get("binary"),
+        color = palette.bright_black,
+        name = "A",
+    },
     ["ttf"] = {
         icon = get("typography"),
         color = palette.white,
         name = "Ttf",
+    },
+    ["mp4"] = {
+        icon = get("video"),
+        color = palette.orange,
+        name = "Mp4",
+    },
+    ["webm"] = {
+        icon = get("video"),
+        color = palette.orange,
+        name = "Webm",
     },
 })
 
