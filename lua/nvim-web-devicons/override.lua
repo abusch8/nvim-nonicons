@@ -384,7 +384,7 @@ devicons.set_icon({
     ["tsconfig"] = {
         icon = get("json"),
         color = palette.bright_black,
-        name = "Json",
+        name = "Tsconfig",
     },
     ["tsx"] = {
         icon = get("react"),
