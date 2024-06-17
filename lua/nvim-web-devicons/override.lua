@@ -251,6 +251,11 @@ devicons.set_icon({
         color = palette.bright_red,
         name = "NodeModules",
     },
+    ["npmrc"] = {
+        icon = get("npm"),
+        color = palette.red,
+        name = "Npmrc",
+    },
     ["package.json"] = {
         icon = get("npm"),
         color = palette.red,
@@ -608,7 +613,7 @@ devicons.set_icon({
     },
     ["a.out"] = {
         icon = get("file-binary"),
-        color = palette.bright_blackbright_red,
+        color = palette.bright_black,
         name = "A",
     },
     ["ttf"] = {
@@ -646,7 +651,7 @@ devicons.set_icon({
         color = palette.orange,
         name = "Webm",
     },
-    ["DS_Store"] = {
+    [".DS_Store"] = {
         icon = get("gear"),
         color = palette.bright_black,
         name = "DS_Store",
@@ -655,6 +660,11 @@ devicons.set_icon({
         icon = get("json"),
         color = palette.bright_black,
         name = "Webmanifest",
+    },
+    ["prettierrc"] = {
+        icon = get("prettier"),
+        color = palette.magenta,
+        name = "Prettierrc",
     },
 })
 
