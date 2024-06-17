@@ -631,6 +631,11 @@ devicons.set_icon({
         color = palette.orange,
         name = "Mp3",
     },
+    ["m4a"] = {
+        icon = get("play"),
+        color = palette.orange,
+        name = "M4a",
+    },
     ["flac"] = {
         icon = get("play"),
         color = palette.orange,
@@ -665,6 +670,21 @@ devicons.set_icon({
         icon = get("prettier"),
         color = palette.magenta,
         name = "Prettierrc",
+    },
+    [".bash_profile"] = {
+        icon = get("person"),
+        color = palette.bright_black,
+        name = "Bash_profile",
+    },
+    [".gtkrc-2.0"] = {
+        icon = get("file"),
+        color = palette.bright_black,
+        name = "Gtkrc",
+    },
+    [".xinitrc"] = {
+        icon = get("screen-full"),
+        color = palette.bright_black,
+        name = "Xinitrc",
     },
 })
 

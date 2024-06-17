@@ -7,11 +7,11 @@ local function get(name)
 end
 
 M.icons = {
-    ERROR = get "x-circle" .. " ",
-    WARN = get "alert" .. " ",
-    INFO = get "info" .. " ",
-    DEBUG = get "bug" .. " ",
-    TRACE = get "play" .. " ",
+    ERROR = get("x-circle") .. " ",
+    WARN = get("alert") .. " ",
+    INFO = get("info") .. " ",
+    DEBUG = get("bug") .. " ",
+    TRACE = get("play") .. " ",
 }
 
 return M
