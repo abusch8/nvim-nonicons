@@ -381,7 +381,7 @@ devicons.set_icon({
         color = palette.blue,
         name = "Dts",
     },
-    ["tsconfig"] = {
+    ["tsconfig.json"] = {
         icon = get("json"),
         color = palette.bright_black,
         name = "Tsconfig",
