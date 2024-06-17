@@ -86,6 +86,11 @@ devicons.set_icon({
         color = palette.bright_black,
         name = "Bash",
     },
+    ["h"] = {
+        icon = get("h"),
+        color = palette.magenta,
+        name = "H",
+    },
     ["c"] = {
         icon = get("c"),
         color = palette.bright_blue,
@@ -446,6 +451,11 @@ devicons.set_icon({
         color = palette.yellow,
         name = "Pem",
     },
+    ["pub"] = {
+        icon = get("key"),
+        color = palette.yellow,
+        name = "Pem",
+    },
     ["favicon.ico"] = {
         icon = get("star"),
         color = palette.yellow,
@@ -586,6 +596,11 @@ devicons.set_icon({
         color = palette.bright_black,
         name = "Bin",
     },
+    ["o"] = {
+        icon = get("file-binary"),
+        color = palette.bright_black,
+        name = "O",
+    },
     ["exe"] = {
         icon = get("file-binary"),
         color = palette.bright_blue,
@@ -593,7 +608,7 @@ devicons.set_icon({
     },
     ["a.out"] = {
         icon = get("file-binary"),
-        color = palette.bright_black,
+        color = palette.bright_blackbright_red,
         name = "A",
     },
     ["ttf"] = {
