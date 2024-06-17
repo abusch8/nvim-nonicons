@@ -336,6 +336,16 @@ devicons.set_icon({
         color = palette.cyan,
         name = "Sql",
     },
+    ["sqlite"] = {
+        icon = get("database"),
+        color = palette.cyan,
+        name = "Sqlite",
+    },
+    ["sqlite3"] = {
+        icon = get("database"),
+        color = palette.cyan,
+        name = "Sqlite3",
+    },
     ["svg"] = {
         icon = get("key-asterisk"),
         color = palette.orange,
@@ -536,10 +546,30 @@ devicons.set_icon({
         color = palette.bright_black,
         name = "Aliasrc",
     },
+    ["ini"] = {
+        icon = get("gear"),
+        color = palette.bright_black,
+        name = "Ini",
+    },
     ["secrets.yml"] = {
         icon = get("lock"),
         color = palette.bright_black,
         name = "Secrets",
+    },
+    ["kbx"] = {
+        icon = get("lock"),
+        color = palette.bright_black,
+        name = "Kbx",
+    },
+    ["bin"] = {
+        icon = get("binary"),
+        color = palette.bright_black,
+        name = "Bin",
+    },
+    ["ttf"] = {
+        icon = get("typography"),
+        color = palette.white,
+        name = "Ttf",
     },
 })
 
