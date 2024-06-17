@@ -87,7 +87,7 @@ devicons.set_icon({
         name = "Bash",
     },
     ["h"] = {
-        icon = get("h"),
+        icon = get("heading"),
         color = palette.magenta,
         name = "H",
     },
