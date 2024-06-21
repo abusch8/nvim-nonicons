@@ -111,6 +111,11 @@ devicons.set_icon({
         color = palette.bright_black,
         name = "Conf",
     },
+    ["cfg"] = {
+        icon = get("gear"),
+        color = palette.bright_black,
+        name = "Cfg",
+    },
     ["cp"] = {
         icon = get("c-plusplus"),
         color = palette.bright_blue,
