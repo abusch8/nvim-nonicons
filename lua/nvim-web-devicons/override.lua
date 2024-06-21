@@ -281,6 +281,11 @@ devicons.set_icon({
         color = palette.magenta,
         name = "Png",
     },
+    [".face"] = {
+        icon = get("image"),
+        color = palette.magenta,
+        name = "Face",
+    },
     ["gif"] = {
         icon = get("image"),
         color = palette.bright_blue,
@@ -682,9 +687,14 @@ devicons.set_icon({
         name = "Gtkrc",
     },
     [".xinitrc"] = {
-        icon = get("screen-full"),
+        icon = get("file"),
         color = palette.bright_black,
         name = "Xinitrc",
+    },
+    ["groovy"] = {
+        icon = get("java"),
+        color = palette.bright_cyan,
+        name = "Groovy",
     },
 })
 
