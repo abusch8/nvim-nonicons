@@ -471,6 +471,11 @@ devicons.set_icon({
         color = palette.yellow,
         name = "Pem",
     },
+    ["password"] = {
+        icon = get("key"),
+        color = palette.yellow,
+        name = "Password",
+    },
     ["favicon.ico"] = {
         icon = get("star"),
         color = palette.yellow,
