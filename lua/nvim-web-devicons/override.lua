@@ -66,6 +66,11 @@ devicons.set_icon({
         color = palette.bright_black,
         name = "Zshrc",
     },
+    [".zshenv"] = {
+        icon = get("code-square"),
+        color = palette.bright_black,
+        name = "Zshenv",
+    },
     [".bashrc"] = {
         icon = get("terminal"),
         color = palette.bright_black,
