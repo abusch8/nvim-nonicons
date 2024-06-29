@@ -287,9 +287,9 @@ devicons.set_icon({
         name = "Png",
     },
     [".face"] = {
-        icon = get("image"),
-        color = palette.magenta,
+        color = palette.bright_black,
         name = "Face",
+        icon = get("person"),
     },
     ["gif"] = {
         icon = get("image"),
@@ -626,10 +626,10 @@ devicons.set_icon({
         color = palette.bright_blue,
         name = "Exe",
     },
-    ["a.out"] = {
+    ["out"] = {
         icon = get("file-binary"),
         color = palette.bright_black,
-        name = "A",
+        name = "Out",
     },
     ["ttf"] = {
         icon = get("typography"),
@@ -690,6 +690,11 @@ devicons.set_icon({
         icon = get("person"),
         color = palette.bright_black,
         name = "Bash_profile",
+    },
+    [".zsh_profile"] = {
+        icon = get("person"),
+        color = palette.bright_black,
+        name = "Zsh_profile",
     },
     [".gtkrc-2.0"] = {
         icon = get("file"),
