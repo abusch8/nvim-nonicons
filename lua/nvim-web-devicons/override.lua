@@ -221,6 +221,11 @@ devicons.set_icon({
         color = palette.bright_black,
         name = "Json",
     },
+    ["jsonc"] = {
+        icon = get("jsonc"),
+        color = palette.bright_black,
+        name = "Jsonc",
+    },
     ["jsx"] = {
         icon = get("react"),
         color = palette.bright_blue,
