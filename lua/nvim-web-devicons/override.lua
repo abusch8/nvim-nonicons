@@ -222,7 +222,7 @@ devicons.set_icon({
         name = "Json",
     },
     ["jsonc"] = {
-        icon = get("jsonc"),
+        icon = get("json"),
         color = palette.bright_black,
         name = "Jsonc",
     },
