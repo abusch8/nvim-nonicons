@@ -721,6 +721,11 @@ devicons.set_icon({
         color = palette.bright_cyan,
         name = "Groovy",
     },
+    ["robots"] = {
+        icon = get(""),
+        color = palette.bright_cyan,
+        name = "Robots"
+    },
 })
 
 devicons.set_default_icon(get("file"), palette.bright_black)
