@@ -721,8 +721,8 @@ devicons.set_icon({
         color = palette.bright_cyan,
         name = "Groovy",
     },
-    ["robots"] = {
-        icon = get(""),
+    ["robots.txt"] = {
+        icon = get("bug"),
         color = palette.bright_cyan,
         name = "Robots"
     },
