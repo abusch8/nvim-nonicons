@@ -251,11 +251,6 @@ devicons.set_icon({
         color = palette.bright_blue,
         name = "ReadMe",
     },
-    ["README.md"] = {
-        icon = get("markdown"),
-        color = palette.bright_blue,
-        name = "ReadMeMd",
-    },
     ["markdown"] = {
         icon = get("markdown"),
         color = palette.bright_blue,
