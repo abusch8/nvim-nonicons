@@ -1,3 +1,13 @@
+# Nvim-nonicons
+
+Fork of nvim-web-devicons that utilizes nonicons instead of nerdfonts.  You either need to install nonicons independently or patch a pre existing font with nonicons font using the nerdfonts patcher.
+
+I wasnt happy with https://github.com/ya2s/nvim-nonicons, it requires nvim-web-devicons as a depedency and the icons from nerdfonts tend to fight or act as a fallback.  This fork removes the nerdfonts icons entirely and only uses nonicons.
+
+Any icon that does not exist will fallback to the simple file icon.
+
+https://github.com/ya2s/nonicons
+
 # Nvim-web-devicons
 
 Provides [Nerd Font](https://www.nerdfonts.com/) [^1] icons (glyphs) for use by *Neovim* plugins:
@@ -58,7 +68,7 @@ PRs are always welcome! Please see [CONTRIBUTING](CONTRIBUTING.md)
 > PR to a project that feeds glyphs to Nerd Fonts. Probably the most adequate
 > project to contribute is <https://github.com/devicons/devicon>.
 > Take into account that **months** can pass before the icon is available on the
-> Nerd Fonts project, once there feel free to open a PR on this project, see 
+> Nerd Fonts project, once there feel free to open a PR on this project, see
 > [CONTRIBUTING](CONTRIBUTING.md)
 
 ## Usage
@@ -69,7 +79,7 @@ Run `:NvimWebDeviconsHiTest` to see all icons and their highlighting.
 
 ### Variants
 
-Light or dark color variants of the icons depend on `&background`.  
+Light or dark color variants of the icons depend on `&background`.
 The variant can also be set manually in `setup` with the `variant` option.
 
 The variant is updated:
