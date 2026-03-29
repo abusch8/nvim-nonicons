@@ -333,7 +333,7 @@ M.mapping = {
 }
 
 function M.get(name)
-    return vim.fn.nr2char(tonumber(M.mapping[name]))
+    return vim.fn.nr2char(M.mapping[name])
 end
 
 return M
