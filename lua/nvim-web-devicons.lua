@@ -14,10 +14,11 @@ local icons_by_desktop_environment, icons_by_window_manager
 local user_icons
 
 local filetypes = require "nvim-web-devicons.filetypes"
+local get = require("nonicons.mapping").get
 
 ---@type Icon
 local default_icon = {
-  icon = "",
+  icon = get("file"),
   color = "#6d8086",
   cterm_color = "66",
   name = "Default",
